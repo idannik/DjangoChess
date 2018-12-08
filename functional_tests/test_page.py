@@ -9,3 +9,4 @@ class PageTest(FunctionalTest):
         text = self.browser.find_element_by_tag_name('h1').text
         self.assertIn('Chess', text)
 
+
